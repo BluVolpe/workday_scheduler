@@ -1,42 +1,43 @@
 
 let now = moment().format('ha');
-now = "12pm"
+
+
+
+
 localStorage.setItem("person", "bob");
-
 let bob = localStorage.getItem("person");
-
 console.log(bob);
 
 
 const data = [
     {
         time: "9am",
-        text: "breakfast",
+        text: "",
     },
     {
         time: "10am",
-        text: "breakfast",
+        text: "",
     },{
         time: "11am",
-        text: "breakfast",
+        text: "",
     },{
         time: "12pm",
-        text: "breakfast",
+        text: "",
     },{
         time: "1pm",
-        text: "breakfast",
+        text: "",
     },{
         time: "2pm",
-        text: "breakfast",
+        text: "",
     },{
         time: "3pm",
-        text: "breakfast",
+        text: "",
     },{
         time: "4pm",
-        text: "breakfast",
+        text: "",
     },{
         time: "5pm",
-        text: "breakfast",
+        text: "",
     },
 ]
 
@@ -68,8 +69,11 @@ function populateScheduler() {
             console.log(textarea.value);
 
             slot.text = textarea.value;
-        })
+        });
     } 
 }
+
+
+populateScheduler();
 
 

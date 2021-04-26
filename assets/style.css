@@ -2,21 +2,23 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: dimgray;
   }
   
   textarea {
     background: transparent;
     border: none;
     resize: none;
-    color: #000000;
+    color: black;
     border-left: 1px solid black;
     padding: 10px;
+    width: 80%;
   }
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    background-color: darkslategray;
+    color: lightgrey;
     border-radius: 0;
     border-bottom: 10px solid black;
   }
@@ -24,10 +26,15 @@ body {
   .description {
     white-space: pre-wrap;
   }
+
+  textarea {
+      color: black;
+  }
   
   .time-block {
     text-align: center;
     border-radius: 15px;
+    
   }
   
   .row {
@@ -37,33 +44,41 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    background-color: dimgray;
+    color: white;
+    border-top: 1px dashed black;
+    width: 10%;
+    text-align: center;
   }
   
   .past {
-    background-color: #d3d3d3;
-    color: white;
+    background-color: lightgray;
+    color: black;
   }
   
   .present {
-    background-color: #ff6961;
-    color: white;
+    background-color: tomato;
+    color: black;
   }
   
   .future {
-    background-color: #77dd77;
-    color: white;
+    background-color: yellowgreen;
+    color: black;
   }
   
   .saveBtn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
+    background-color: lightskyblue;
     color: white;
+    text-align: center;
+    width: 10%;
   }
+
+  td i {
+    text-align:center;
+}
   
   .saveBtn i:hover {
     font-size: 20px;
