@@ -53,7 +53,7 @@ function populateScheduler() {
         let row = document.getElementById(time);
         let textarea = row.querySelector("textarea");
         console.log(textarea);
-        textarea.value = text;
+        textarea.value = localStorage.getItem(time);
 
         if (now == row.id) {
             textarea.classList.add("present");
@@ -67,11 +67,15 @@ function populateScheduler() {
         let saveBtn = row.querySelector(".saveBtn");
         saveBtn.addEventListener("click", function(){
             console.log(textarea.value);
+            localStorage.setItem(time, textarea.value);
 
             slot.text = textarea.value;
         });
     } 
 }
+
+
+
 
 
 populateScheduler();
