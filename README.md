@@ -1,29 +1,32 @@
-# Work Day Scheduler
+# Simple Workday Scheduler
 
   
     
-  }}
   
 ## Description
-A sheduler for keeping track of to-do's during the work day schedule of 9am-5pm.
-## Table of Contents (Optional)
-If your README is long, add a table of contents to make it easy for users to find what they need.
-- [Installation](#installation)
-- [Usage](#usage)
-- [Questions](#questions)
-- [License](#license)
-- [Technologies](#tech)
-- [Image](#img)
-- [Contribution](#contribution)
-## Installation
-n/a
-## Usage
-Type in your comments in the comment section and click the clipboard icon on the right hand side to save the comments for future use.
-## Questions
-https://github.com/BluVolpe
+A 9am-5pm workday scheduler for keeping track of to-do's. All insertations are saved on local memory and can be changed or updated at any time with the click of a button.
+
+## Getting Started
+
+### Dependencies
+Nothing
+
+
+### Installing
+Hosted
+
+
+## Help
+No known issues
+
+## Authors
+David Volpe
+
+## Version History
+1.0
+
 ## License
+ None
 
- undefined
-
-## Tech
-html, css, jacascript
+## Acknowledgments
+Built during coding camp and worked on afterwards for corrections
